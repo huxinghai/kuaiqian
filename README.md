@@ -14,7 +14,30 @@ And then execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+config.yml配置:
+
+    #rsa加密
+    remote: https://www.99bill.com/gateway/recvMerchantInfoAction.htm
+    rsa:
+      pem_path: 99bill-rsa.pem
+      password: 123456
+      cer_path: 99bill-rsa.cer
+
+    params:
+      merchant_acct_id: 1002301545701
+      version: v2.0
+      language: 1
+      sign_type: 4
+
+    #md5加密, 替换rsa与修改sign_type参数
+
+    md5:
+      key: XZDE46UKTFJ6TPQT
+
+    params:
+      sign_type: 1
+
+
 
 ## Contributing
 
