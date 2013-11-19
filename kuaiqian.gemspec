@@ -4,8 +4,8 @@ require File.expand_path('../lib/kuaiqian/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["kaka"]
   gem.email         = ["huxinghai1988@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{99bill快钱支付}
+  gem.summary       = %q{99bill快钱支付}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
